@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+<link rel="stylesheet" type="text/css" href="dark.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
+<style>
+    .swiper-container {
+        position: relative;
+    }
+    
+    .swiper {
+        width: 85%;
+        height: 100%;
+    }
+    
+    .swiper-button-next {
+        position: absolute;
+        top: 150;
+        right: 5px;
+        color: white;
+    }
+    
+    .swiper-button-prev {
+        position: absolute;
+        bottom: 195px;
+        left: 5px;
+        color: white;
+    }
+    
+    .swiper-pagination {
+        position: absolute;
+        bottom: 5px;
+    }
+    
+    .swiper-slide {
+        font-size: 16px;
+        /* Center slide text vertically */
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        -webkit-justify-content: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        -webkit-align-items: center;
+        align-items: center;
+    }
+    
+    .swiper-slide img {
+        display: block;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+</style>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <section class="s1">
+        <div class="greeting-wrapper">
+            <h1>Hi, I'm Ayman kastali</h1>
+        </div>
+        <div class="main-container greeting-container">
+            <div class="intro-wrapper" style="margin: 0 auto;">
+                <div class="nav-wrapper">
+                    <div class="dots-wrapper">
+                        <div class="browser-dot" id="dot-1">
+                        </div>
+                        <div class="browser-dot" id="dot-2">
+                        </div>
+                        <div class="browser-dot" id="dot-3">
+                        </div>
+                    </div>
+                    <ul id="navigation">
+                        <li>
+                            <a id="contact-btn" href="#contact-me">
+                                Contact Me
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="left-column">
+                    <img id="profile-pic" src="profile.jpg">
+                    <br>
+                    <p id="settings-note">Software Engineer: <a target="_blank" href="cv.pdf">Download Resume</a></p>
+                </div>
+                <div class="rigth-column">
+                    <div id="preview-shadow">
+                        <div id="preview">
+                            <div id="corner-tl" class="corner"></div>
+                            <div id="corner-tc" class="corner"></div>
+                            <div id="corner-tr" class="corner"></div>
+                            <div id="corner-r" class="corner"></div>
+                            <div class="who-i-am">
+                                <h3>Who I Am</h3>
+                                <p>Python Developer</p>
+                            </div>
+                            <div id="corner-br" class="corner"></div>
+                            <div id="corner-bc" class="corner"></div>
+                            <div id="corner-bl" class="corner"></div>
+                            <div id="corner-l" class="corner"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <br>
+        </div>
+    </section>
+    <section class="s2">
+        <h2 style="text-align:center;">
+            About Me
+        </h2>
+        <br>
+        <br>
+        <div class="main-container">
+            <div class="about-wrapper">
+                <div class="about-me" style="margin: 0 auto;">
+                    <div class="l-col">
+                        <h3 class="skills-header">
+                            Skills
+                        </h3>
+                        <br>
+                        <p class="skills-info">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque dignissimos corrupti itaque reiciendis esse rerum at sapiente excepturi, voluptatum, earum hic explicabo deleniti architecto, temporibus libero tenetur ducimus deserunt quas.
+                        </p>
+                        <div id="skills">
+                            <ul style="font-size: 14px;">
+                                <li>Python</li>
+                                <li>Django</li>
+                                <li>Django Rest Framework</li>
+                                <li>HTML, CSS, SCSS, Javascript</li>
+                                <li>React</li>
+                                <li>SQL( MySql, PostgreSQL )</li>
+                                <li>NoSQL( MongoDB )</li>
+                            </ul>
+                            <ul style="font-size: 14px;">
+                                <li>Git</li>
+                                <li>Machine Learning</li>
+                                <li>Deep Learning</li>
+                                <li>Web Scraping</li>
+                                <li>Data Analysis</li>
+                                <li>Tkinter ( Python GUI )</li>
+                                <li>Java</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="social-links">
+                        <h3 style="text-align:center;">
+                            Social Links
+                        </h3>
+                        <br>
+                        <img id="social-img" src="linkedin.png" alt="">
+                        <br>
+                        <div style="padding: 10px;">
+                            <div>
+                                <h3>Find Me On </h3>
+                            </div>
+                            <br>
+                            <div style="display: flex; align-items: baseline; justify-content: space-between;">
+                                <div style="display: flex; align-items: baseline;">
+                                    <h4 style="padding-right: 5px;">LinkedIn: </h4>
+                                    <a target="_blank" href="https://www.linkedin.com/in/ayman-kastali-5b9263166">@AymanKastali</a>
+                                </div>
+                                <div style="display: flex; align-items: baseline;">
+                                    <h4 style="padding-right: 5px;">Github: </h4>
+                                    <a target="_blank" href="https://github.com/AymanKastali">@AymanKastali</a>
+                                </div>
+                            </div>
+                            <div style="display: flex; align-items: baseline; ">
+                            </div>
+                        </div>
+                        <br>
+
+                    </div>
+                </div>
+            </div>
+    </section>
+
+    <section class="s1">
+        <div class="main-container certificate-container">
+            <h2 style="text-align:center; padding-bottom: 0px;">
+                Certificates
+            </h2>
+            <br>
+            <br>
+            <div class="swiper-container" style="margin: 0 auto;">
+                <div class="swiper mySwiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="certificate">
+                                <img class="certificate-thumbnail" src="Supervised Machine Learning - Regression certificate.png" alt="">
+                                <div class="certificate-preview">
+                                    <h6 class="certificate-title">Supervised Machine Learning: Regression</h6>
+                                    <p>IBM</p>
+                                    <a target="_blank" class="project-link" href="https://coursera.org/share/b2d7490738cc0c95407a48528715fc5c">Verify Link</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="certificate">
+                                <img class="certificate-thumbnail" src="Data Analyst.png" alt="">
+                                <div class="certificate-preview">
+                                    <h6 class="certificate-title">Data Analyst</h6>
+                                    <p>IBM</p>
+                                    <a target="_blank" class="project-link" href="https://coursera.org/share/dbfb45f7bacffe15f9f3e68872cc8e42">Verify Link</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="certificate">
+                                <img class="certificate-thumbnail" src="Javascript.png" alt="">
+                                <div class="certificate-preview">
+                                    <h6 class="certificate-title">Programming with Javascript</h6>
+                                    <p>Meta</p>
+                                    <a target="_blank" class="project-link" href="https://coursera.org/share/38a92068d7d7d7493e93648d04bffea7">Verify Link</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="certificate">
+                                <img class="certificate-thumbnail" src="Python.png" alt="">
+                                <div class="certificate-preview">
+                                    <h6 class="certificate-title">Programming in Python</h6>
+                                    <p>Meta</p>
+                                    <a target="_blank" class="project-link" href="https://coursera.org/share/5fe3ae8345e48fa765ec19da45bc7eb8">Verify Link</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="certificate">
+                                <img class="certificate-thumbnail" src="Using Python to Access Web Data.png" alt="">
+                                <div class="certificate-preview">
+                                    <h6 class="certificate-title">Using Python to Access Web Data</h6>
+                                    <p>Mishgin University</p>
+                                    <a target="_blank" class="project-link" href="https://coursera.org/share/543c942bcc12e1397ca47f113b0b8347">Verify Link</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="certificate">
+                                <img class="certificate-thumbnail" src="Using Python to Access Web Data.png" alt="">
+                                <div class="certificate-preview">
+                                    <h6 class="certificate-title">Using Python to Access Web Data</h6>
+                                    <p>Mishgin University</p>
+                                    <a target="_blank" class="project-link" href="https://coursera.org/share/543c942bcc12e1397ca47f113b0b8347">Verify Link</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div style="padding-top: 50px;">
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-pagination"></div>
+                </div>
+            </div>
+            <br>
+            <br>
+    </section>
+
+    <section class="s2">
+        <div class="main-container">
+            <h2 style="text-align:center; padding-bottom: 25px;">
+                My Projects
+            </h2>
+            <div class="" style="margin: 0 auto; width: 1030px;">
+                <div class="post" style="position: relative;">
+                    <img class="post-thumbnail" src="linkedin.png" alt="">
+                    <div class="post-preview" style="margin-top: 10px;">
+                        <h5 class="post-title" style="text-align: center;">Job Search (linkedIn clone)</h5>
+                        <p class="post-intro" style="text-align: center;">
+                            Job search is a website similar to linkedIn, you will be able to posting jobs positions and searching for jobs if you are looking for a good job, and so more features.
+                            <br>
+                            <br> Click read more for more informations.
+                        </p>
+                    </div>
+                    <a class="project-link" href="https://github.com/AymanKastali/jobSearch.git" target="_blank" style="position: absolute; bottom: 10px; left: 10px">Project Link</a>
+                    <a class="read-more" href="jobSearch.html" style="position: absolute; bottom: 10px; right: 10px">Read More</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="s1">
+        <div class="main-container" id="contact-me">
+            <h2 style="text-align:center;">
+                Get In Touch
+            </h2>
+
+            <form style="margin: 0 auto;" action="contact" id="contact-form" method="POST">
+                <!-- {% csrf_token %} -->
+                <label>Subject</label>
+                <input class="input-field" type="text" name="subject">
+
+                <label>Email</label>
+                <input class="input-field" type="email" name="from_email">
+
+                <label>Message</label>
+                <textarea rows="6" class="input-field" type="text" name="message"></textarea>
+                <input id="submit-btn" type="submit" value="Send">
+            </form>
+        </div>
+    </section>
+    <footer>
+        <div>
+            <span>Copyright</span> &copy; <strong>Ayman Kastali</strong>
+        </div>
+    </footer>
+
+
+    <script type='text/javascript' src="scripts.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            // slidesPerView: 4,
+            // spaceBetween: 10,
+            // slidesPerGroup: 4,
+            breakpoints: {
+                480: {
+                    slidesPerView: 2,
+                    spaceBetween: 10,
+                    slidesPerGroup: 2,
+                },
+                640: {
+                    slidesPerView: 3,
+                    spaceBetween: 10,
+                    slidesPerGroup: 3,
+                },
+                1200: {
+                    slidesPerView: 4,
+                    spaceBetween: 10,
+                    slidesPerGroup: 4,
+                }
+            },
+            loop: false,
+            loopFillGroupWithBlank: true,
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+            },
+        });
+    </script>
+</body>
+
+</html>
