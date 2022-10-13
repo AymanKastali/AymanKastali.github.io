@@ -149,7 +149,7 @@ h6 {
 }
 
 #dot-2 {
-    background-color: #b2ca2a;
+    background-color: #c5ca2a;
 }
 
 
@@ -640,5 +640,12 @@ footer {
     }
     .s2 .projects .project-info .post {
         min-height: 500px;
+    }
+    .s1 .project-container .features-container .project-info .right-col .used-languages {
+        height: 385px;
+    }
+    .s1 .project-container .features-container .project-info {
+        grid-template-columns: 1fr;
+        grid-template-areas: 'center-col' 'left-col' 'right-col' 'center-bottom-col';
     }
 }
