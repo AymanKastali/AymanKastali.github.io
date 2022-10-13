@@ -145,6 +145,15 @@ h6 {
 }
 
 #dot-1 {
+    background-color: #17a2b8;
+}
+
+#dot-2 {
+    background-color: #b2ca2a;
+}
+
+
+/* #dot-1 {
     background-color: #fc6058;
 }
 
@@ -154,7 +163,7 @@ h6 {
 
 #dot-3 {
     background-color: #17a2b8;
-}
+} */
 
 .browser-dot {
     background-color: black;
@@ -604,9 +613,32 @@ footer {
     .about-me {
         grid-template-columns: 1fr;
         grid-template-areas: 'l-col' 'social-links';
+        width: auto;
     }
-    .s1 .main-container .project-info {
+    .about-me .l-col {
+        max-width: 270px;
+    }
+    .about-me .social-links {
+        max-width: 270px;
+    }
+    .about-me .social-links #social-img {
+        width: 270px;
+    }
+    .about-me .social-links .social-info {
+        width: 270px;
+        font-size: 10px;
+    }
+    .about-me .social-links .social-info h4 {
+        font-size: 12px;
+    }
+    /* .s1 .main-container .project-info {
         grid-template-columns: 1fr;
         grid-template-areas: 'left-col' 'right-col';
+    } */
+    .s2 .projects {
+        min-height: 500px;
+    }
+    .s2 .projects .project-info .post {
+        min-height: 500px;
     }
 }
